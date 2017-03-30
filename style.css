@@ -1,0 +1,59 @@
+* {
+  /*border: solid blue 1px;*/
+  background-color: white;
+}
+
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #ebebeb;
+  background: #777;
+  width: 960px;
+  text-align: center;
+  /*have to add padding, margin in the header won't work*/
+  padding: 10px 115px 80px 115px;
+}
+
+.crossbar {
+	margin: 10px 0px 10px 0px;
+	line-height: 80px;
+	height: 80px;
+}
+
+h1 {
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.twocol{
+	margin: 10px 0px 20px 0px;
+	padding: 30px 7px 7px 7px;
+	height: 245px;
+}
+
+section {
+	width: 495px;
+	float: left;
+}
+
+#aside{
+	width: 420px;
+	float: right;
+}
+
+#article{
+	 margin: 30px 0 0 0;
+	 padding: 20px;
+	 background-color: #777;
+}
+
+.shortbar{
+	margin: 15px 0 0 0;
+	line-height: 50px;
+	height: 50px;
+}
+
+footer{
+	clear: both;
+}
